@@ -63,7 +63,7 @@ def query_movies_by_embedding(embedding_vector):
 
 
 # Replace with the host and port of your local Vespa instance
-app = Vespa(url="http://localhost", port=8080)
+app = Vespa(url="http://localhost", port=8082)
 
 query = "Harry Potter and the Half-Blood Prince"
 
